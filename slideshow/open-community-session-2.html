@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Craftsmanship Open Community Session #2</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="reveal.js/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="reveal.js/css/theme/sobkowiak-cg.css" id="theme"><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet"><script>document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title"><h1>Craftsmanship Open Community Session #2</h1><div class="preamble"><div class="openblock cover"><div class="content"><div class="paragraph event"><p>Capgemini Craftsmanship Community<br>
+Wrocław, 28th of April 2017</p></div>
+<div class="paragraph newline"><p>Krzysztof Sobkowiak (<a href="http://twitter.com/ksobkowiak">@ksobkowiak</a>)</p></div>
+<div class="paragraph speaker-title"><p>The Apache Software Foundation Member<br>
+Senior Solution Architect at Capgemini</p></div>
+<div class="paragraph logo-left"><p><span class="image"><a class="image" href="http://apache.org"><img src="assets/images/feather.png" alt="feather" width="60"></a></span></p></div></div></div></div></section>
+<section><section id="_your_speaker"><h2>Your Speaker</h2><table class="tableblock frame-all grid-all noredheader" style="width:100%"><colgroup><col style="width:75%"><col style="width:25%"></colgroup><tbody><tr><td class="tableblock halign-left valign-top"><div><div class="ulist"><ul><li><p>FOSS enthusiast, evangelist &amp; architect</p></li><li><p>Senior Solution Architect at Capgemini</p></li><li><p>The Apache Software Foundation</p><div class="ulist"><ul><li><p>Member</p></li><li><p>Apache ServiceMix commiter &amp; PMC chair (V.P. Apache ServiceMix)</p></li><li><p>active at Apache Karaf, CXF, Camel, ActiveMQ</p></li></ul></div></li><li><p>Member/developer at <a href="http://oasp.io">OASP</a>, <a href="https://ops4j1.jira.com/wiki/">OPS4J</a></p></li></ul></div></div></td><td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="image"><img src="assets/images/kso1.png" alt="kso1"></span></p></td></tr></tbody></table></section><section><div class="openblock centering"><div class="content"><div class="paragraph"><p><span class="image"><img src="assets/images/warn.png" alt="warn"></span></p></div>
+<div class="paragraph medium-text"><p>Views in this presentation are my personal views and do not necessarily reflect the views of Capgemini.</p></div></div></div></section></section>
+<section id="_outline"><h2>Outline</h2><table class="tableblock frame-all grid-all noredheader" style="width:100%"><colgroup><col style="width:100%"><col style="width:0%"></colgroup><tbody><tr><td class="tableblock halign-left valign-top"><div><div class="ulist"><ul><li><p>Apps Evolve! Summit&#8201;&#8212;&#8201;Services Orchestration Stream summary</p></li><li><p>Topic proposal: Fabric8 your Services with Kubernetes &amp; OpenShift</p><div class="ulist"><ul><li><p>Package your Application using Docker &amp; Kubernetes</p></li><li><p>Resilient Services with Spring Cloud, Docker &amp; Kubernetes</p></li><li><p>xPaaS with OpenShift &amp; fabric8</p></li></ul></div></li><li><p>Topic proposal: Understanding Open Source, the Apache Software Foundation</p></li><li><p>Topic proposal: Enterprise Integration Patters with Apache Camel &amp; Apache ActiveMQ (Artemis)</p></li><li><p>RoboCAP</p></li></ul></div></div></td><td class="tableblock halign-left valign-top"><div></div></td></tr></tbody></table></section>
+<section id="_appsevolve_summit_services_orchestration_stream"><h2>AppsEvolve Summit&#8201;&#8212;&#8201;Services Orchestration Stream</h2></section>
+<section><section id="_fabric8_your_services_with_kubernetes_openshift"><h2>Fabric8 your Services with Kubernetes &amp; OpenShift</h2></section><section><div class="imageblock" style="text-align: center"><img src="images/turbo-camel.png" alt="turbo camel"></div></section><section><div class="paragraph medium-text"><p>Creating business value through software is about speed, safety, iteration, and continuous improvement</p></div></section><section><table class="tableblock frame-all grid-all noredheader" style="width:100%"><colgroup><col style="width:38%"><col style="width:4%"><col style="width:58.0%"></colgroup><tbody><tr><td class="tableblock halign-center valign-middle"><p class="tableblock"><span class="image"><img src="images/java-microservices-frameworks.png" alt="java microservices frameworks"></span></p></td><td class="tableblock halign-left valign-top"><div></div></td><td class="tableblock halign-left valign-middle"><div><div class="ulist"><ul><li><p>Simple configuration</p></li><li><p>Curated dependencies and transitive dependencies</p></li><li><p>Built in metrics, monitoring</p></li><li><p>Slim profile for deployment (&#8230;&#8203;micro even?)</p><div class="paragraph"><p>#microprofile</p></div></li></ul></div></div></td></tr></tbody></table></section><section><table class="tableblock frame-all grid-all noredheader" style="width:100%"><colgroup><col style="width:48%"><col style="width:4%"><col style="width:48%"></colgroup><tbody><tr><td class="tableblock halign-center valign-middle"><p class="tableblock"><span class="image"><img src="images/netflix-java-logo.png" alt="netflix java logo" width="70%"></span></p></td><td class="tableblock halign-left valign-top"><div></div></td><td class="tableblock halign-left valign-middle"><div><div class="ulist"><ul><li><p>Distributed configuration</p></li><li><p>Service Discovery</p></li><li><p>Loadbalancing</p></li><li><p>Circuit Breakers</p></li><li><p>Bulkheading</p></li><li><p>Versioning/Routing</p></li><li><p>Based on AWS</p></li></ul></div></div></td></tr></tbody></table></section><section><div class="imageblock" style="text-align: center"><img src="images/docker-logo.png" alt="docker logo"></div></section><section id="_what_about_non_java"><h2>What about non-java?</h2><div class="imageblock" style="text-align: center"><img src="images/non-java-languages.png" alt="non java languages" width="50%"></div></section><section id="_topics_proposal"><h2>Topics proposal</h2><div class="ulist"><ul><li><p>Package your Application using Docker &amp; Kubernetes</p></li><li><p>Resilient Services with Spring Cloud, Docker &amp; Kubernetes</p></li><li><p>xPaaS with OpenShift &amp; fabric8</p></li></ul></div></section><section id="_topics_proposal_2"><h2>Topics proposal</h2><table class="tableblock frame-all grid-all noredheader" style="width:100%"><colgroup><col style="width:48%"><col style="width:4%"><col style="width:48%"></colgroup><tbody><tr><td class="tableblock halign-center valign-middle"><div><div class="ulist"><ul><li><p>Spring Boot</p></li><li><p>WildFly Swarm</p></li><li><p>Vert.x</p></li><li><p>Dropwizard</p></li></ul></div></div></td><td class="tableblock halign-left valign-top"><div></div></td><td class="tableblock halign-center valign-middle"><p class="tableblock"><span class="image"><img src="images/i-want-you.png" alt="i want you" width="55%"></span></p></td></tr></tbody></table></section></section>
+<section><section><div class="openblock thanks"><div class="content"><div class="paragraph"><p><span class="image"><img src="assets/images/smile.png" alt="smile"></span></p></div>
+<div class="paragraph"><p><h1>Thanks!</h1></p></div>
+<div class="paragraph underline"><p><span class="image"><img src="assets/images/underline.png" alt="underline"></span></p></div>
+<div class="paragraph large-text"><p>Any questions?</p></div>
+<div class="paragraph newline"><p>You can find me at<br>
+<a href="http://twitter.com/ksobkowiak">@ksobkowiak</a><br>
+<a href="mailto:krzysztof.sobkowiak@capgemini.com">krzysztof.sobkowiak@capgemini.com</a><br>
+<a href="http://krzysztof-sobkowiak.net" class="bare">http://krzysztof-sobkowiak.net</a></p></div></div></div></section><section><div class="openblock centering"><div class="content"><div class="paragraph"><p><span class="image"><img src="assets/images/warn.png" alt="warn"></span></p></div>
+<div class="paragraph small-text"><p>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+</p></div></div></div></section></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'sobkowiak-cg',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 1280,
+  height: 720,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>
