@@ -7,9 +7,15 @@ include::includes/_settings.adoc[]
 :speaker-blog: http://krzysztof-sobkowiak.net
 :speaker-twitter: http://twitter.com/ksobkowiak[@ksobkowiak]
 
-= Package your Application using Docker
+= Package your Application using Docker & Kubernetes
 
-image::images/docker-logo.png[align="center", width="15%"]
+[.noredheader,cols="45%,10%,45%"]
+|===
+>.^| image:images/docker-logo.png[align="center", width="29%"]
+|
+<.^| image:images/kubernetes-logo.png[align="center", width="20%"]
+|
+|===
 
 [.cover]
 --
