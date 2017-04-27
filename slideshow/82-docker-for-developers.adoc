@@ -62,10 +62,16 @@ image::images/docker-github.png[width="1500", height=250, align="center"]
 
 // ----------------------------------------------------------------------------
 
-=== !
 
-* WORA = Write Once Run Anywhere
-* PODA = Package Once Deploy Anywhere
+=== WORA = Write Once Run Anywhere
+
+image::images/wora.png[align="center", width="60%"]
+
+// ----------------------------------------------------------------------------
+
+=== PODA = Package Once Deploy Anywhere
+
+image::images/poda.png[align="center", width="60%"]
 
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------------
