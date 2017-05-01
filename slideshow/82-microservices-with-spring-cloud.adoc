@@ -1,6 +1,6 @@
 include::includes/_settings.adoc[]
 
-:revealjs_theme: sobkowiak-cg
+:revealjs_theme: sobkowiak-cg-craftsmanship
 :speaker: Krzysztof Sobkowiak (http://twitter.com/ksobkowiak[@ksobkowiak])
 :speaker-title: The Apache Software Foundation Member, Senior Solution Architect at Capgemini
 :speaker-email: krzysztof.sobkowiak@capgemini.com
